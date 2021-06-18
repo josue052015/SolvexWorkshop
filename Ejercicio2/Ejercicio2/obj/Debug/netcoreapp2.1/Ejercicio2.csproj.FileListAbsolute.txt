@@ -1,0 +1,11 @@
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\bin\Debug\netcoreapp2.1\Ejercicio2.deps.json
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\bin\Debug\netcoreapp2.1\Ejercicio2.runtimeconfig.json
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\bin\Debug\netcoreapp2.1\Ejercicio2.runtimeconfig.dev.json
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\bin\Debug\netcoreapp2.1\Ejercicio2.dll
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\bin\Debug\netcoreapp2.1\Ejercicio2.pdb
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\obj\Debug\netcoreapp2.1\Ejercicio2.csprojAssemblyReference.cache
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\obj\Debug\netcoreapp2.1\Ejercicio2.csproj.CoreCompileInputs.cache
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\obj\Debug\netcoreapp2.1\Ejercicio2.AssemblyInfoInputs.cache
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\obj\Debug\netcoreapp2.1\Ejercicio2.AssemblyInfo.cs
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\obj\Debug\netcoreapp2.1\Ejercicio2.dll
+F:\SolvexWorkshop\Ejercicio2\Ejercicio2\obj\Debug\netcoreapp2.1\Ejercicio2.pdb
