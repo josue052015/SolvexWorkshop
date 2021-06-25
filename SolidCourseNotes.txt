@@ -1,0 +1,14 @@
+curso solid Principles
+
+5 principios:
+
+Single Responsibility: cada modulo tiene que tener una sola razon para cambiar. Basicamente todas sus acciones deben de estar alineadas a una unica reponsabilidad. 
+La cohesion es la relacion entre modulos que hagan unicamente la accion para la que estan diseñados y el acoplamiento es la dependencia entre clases. Lo ideal es mantener una alta cohesion y un bajo acoplamiento, esto se puede lograr haciendo que las clases dependan de abstracciones.
+
+open/closed:
+
+liskov sustitution:
+
+interface segregation:
+
+dependency inversion:
