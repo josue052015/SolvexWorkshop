@@ -1,0 +1,14 @@
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\bin\Debug\netcoreapp2.2\policy.json
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\bin\Debug\netcoreapp2.2\samplePolicies.json.txt
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\bin\Debug\netcoreapp2.2\ArdalisRating.deps.json
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\bin\Debug\netcoreapp2.2\ArdalisRating.runtimeconfig.json
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\bin\Debug\netcoreapp2.2\ArdalisRating.runtimeconfig.dev.json
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\bin\Debug\netcoreapp2.2\ArdalisRating.dll
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\bin\Debug\netcoreapp2.2\ArdalisRating.pdb
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\obj\Debug\netcoreapp2.2\ArdalisRating.csproj.AssemblyReference.cache
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\obj\Debug\netcoreapp2.2\ArdalisRating.AssemblyInfoInputs.cache
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\obj\Debug\netcoreapp2.2\ArdalisRating.AssemblyInfo.cs
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\obj\Debug\netcoreapp2.2\ArdalisRating.csproj.CoreCompileInputs.cache
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\obj\Debug\netcoreapp2.2\ArdalisRating.dll
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\obj\Debug\netcoreapp2.2\ArdalisRating.pdb
+F:\SolvexWorkshop\SolidDemo\SolidSample\ArdalisRating\obj\Debug\netcoreapp2.2\ArdalisRating.genruntimeconfig.cache
