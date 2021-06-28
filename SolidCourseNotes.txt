@@ -2,13 +2,22 @@ curso solid Principles
 
 5 principios:
 
-Single Responsibility: cada modulo tiene que tener una sola razon para cambiar. Basicamente todas sus acciones deben de estar alineadas a una unica reponsabilidad. 
+*Single Responsibility: cada modulo tiene que tener una sola razon para cambiar. Basicamente todas sus acciones deben de estar alineadas a una unica reponsabilidad. 
 La cohesion es la relacion entre modulos que hagan unicamente la accion para la que estan diseñados y el acoplamiento es la dependencia entre clases. Lo ideal es mantener una alta cohesion y un bajo acoplamiento, esto se puede lograr haciendo que las clases dependan de abstracciones.
 
-open/closed:
+*open/closed:Esto indica que un modulo debe de estar abierto a expansion pero cerrado a cambios por ejemplo cuando utilizas una clase abstracta 
 
-liskov sustitution:
+*liskov sustitution: esto indica que los objetos de una clase pueden ser reemplazables por objetos de subclases pero tienen que tener el mismo comportamiento(ej: virtual y override).
+violaciones al lsp: 1- tipo declarado con is o as  2-checks nulos   3-NotImplementedException(esto impide que la clase base o la interfaz se utilice como deberia, es decir que solo la usa parcialmente.Ej: tienes 2 metodos como contrato en tu interfaz y solo usas uno y en la implementacion del otro pones que retorne un "NotImplementedException")
+               tell don´t ask: significa que cuando estes trabajando con un tipo no le preguntes de qué es, simplemente ordenales cosas y lo que le digas ya el tipo tendrá la logica encapsulada de cómo hacerlo(ejemplo de la impresion)
 
-interface segregation:
+*interface segregation: establece que un codigo cliente no debe de implementar metodos de una instancia que no utilice.
+Violaciones a este principio: interfaces largas, si ves un "NotImplementedException" significa que esa intefaz es realmente mas larga de lo necesario, el codigo solo utiliza un pequeño grupo de esa interfaz
 
-dependency inversion:
+*dependency inversion: Esto establece que los modulos de alto nivel no dependen de los de bajo nivel, si no que se relacionan a traves de abstracciones. Las abstracciones no dependen de los detalles, pero los detalles si dependen de las abstracciones
+Las abstracciones solo importa que se haga algo Ej: mandar un mensaje. Pero los detalles se centran en cómo se hacen las cosas Ej: cómo se envia el mensaje
+aqui utiliza el patron de diseño: strategy desing pattern
+
+preguntas:
+
+1- Por qué el null rompe con el polomorfismo 
