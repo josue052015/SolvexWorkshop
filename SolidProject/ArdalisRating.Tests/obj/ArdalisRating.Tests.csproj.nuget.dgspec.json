@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating.Tests\\ArdalisRating.Tests.csproj": {}
+    "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating.Tests\\ArdalisRating.Tests.csproj": {}
   },
   "projects": {
-    "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating.Tests\\ArdalisRating.Tests.csproj": {
+    "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating.Tests\\ArdalisRating.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating.Tests\\ArdalisRating.Tests.csproj",
+        "projectUniqueName": "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating.Tests\\ArdalisRating.Tests.csproj",
         "projectName": "ArdalisRating.Tests",
-        "projectPath": "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating.Tests\\ArdalisRating.Tests.csproj",
+        "projectPath": "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating.Tests\\ArdalisRating.Tests.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating.Tests\\obj\\",
+        "outputPath": "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating\\ArdalisRating.csproj": {
-                "projectPath": "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating\\ArdalisRating.csproj"
+              "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating\\ArdalisRating.csproj": {
+                "projectPath": "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating\\ArdalisRating.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating\\ArdalisRating.csproj": {
+    "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating\\ArdalisRating.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating\\ArdalisRating.csproj",
+        "projectUniqueName": "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating\\ArdalisRating.csproj",
         "projectName": "ArdalisRating",
-        "projectPath": "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating\\ArdalisRating.csproj",
+        "projectPath": "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating\\ArdalisRating.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating\\obj\\",
+        "outputPath": "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mh+1eIgzmfRPfOyO3+R7OrJZddyIJxBkTY7odJG6imtUT9eFO67JxqmYfaa8PnzbAKjXAeRL1qYknTdT8mKUfA==",
+  "dgSpecHash": "RnEIaoYV+T8T6uN5x6g63H/ugssfqmbZP7M46FBewEo/QJnMPxWSxK4v55jEM6ugGMZw+d+WBqWYZyfdy91dWg==",
   "success": true,
-  "projectFilePath": "F:\\SolvexWorkshop\\SolidDemo\\SolidSample\\ArdalisRating.Tests\\ArdalisRating.Tests.csproj",
+  "projectFilePath": "F:\\SolvexWorkshop\\SolidProject\\ArdalisRating.Tests\\ArdalisRating.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAYMER\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
     "C:\\Users\\RAYMER\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.0.3\\microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
