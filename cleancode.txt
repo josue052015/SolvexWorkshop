@@ -1,0 +1,9 @@
+el tio bob clean code
+
+capas de abstracion
+
+strongly type
+
+fail fast
+
+procimity principle 

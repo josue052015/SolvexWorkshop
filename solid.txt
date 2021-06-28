@@ -1,0 +1,12 @@
+el acoplamiento es tener elementos que dependan de otros en una misma clase, es el mivel de interdependencia entre clases del software
+
+la cohesion es separar metodos que no se relacionan entre si en otra clase, es la relacion entre metodos en una clase
+
+el acoplamiento tiene que ser bajo y la cohesion alta 
+
+un codigo de alto nivel unicamente pude depender de uno bajo pero no directamente asi no atravez de abstracciones(ej los DTO).ARQUITECTURA CEBOLLA
+
+open/closed abierta a extension(mas metodos) ,pero cerrada a cambios
+
+extension methods
+
