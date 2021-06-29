@@ -1,0 +1,9 @@
+service collection lifetimes
+
+variables de entorno asp.net core
+
+project: solvesxApi
+
+tabla solvexWorkshop
+
+CONFIGURAR ENTITY FRAMEWORK CORE E IMPLEMENTAR REPOSITORY PATTERN EN UNA CARPETA EN LA CAPA MODEL
