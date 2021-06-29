@@ -6,11 +6,17 @@ using System.Text;
 
 namespace GenericApi.Model.Contexts
 {
-    class GenericApiContext: DbContext
+   public class GenericApiContext: DbContext
     {
         public DbSet<Document> Documents { get; set; }
         public DbSet<WorkShop> WorkShops { get; set; }
         public DbSet<WorkShopDay> WorkShopDays { get; set; }
         public DbSet<WorkShopMember> workShopMembers { get; set; }
+
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("");
+        //    base.OnConfiguring(optionsBuilder);
+        //}
     }
 }
