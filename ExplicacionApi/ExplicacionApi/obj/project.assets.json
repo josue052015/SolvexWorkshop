@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\raymer\\.nuget\\packages\\": {},
+    "C:\\Users\\RAYMER\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raymer\\OneDrive\\Desktop\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi\\ExplicacionApi.csproj",
+      "projectUniqueName": "F:\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi\\ExplicacionApi.csproj",
       "projectName": "ExplicacionApi",
-      "projectPath": "C:\\Users\\raymer\\OneDrive\\Desktop\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi\\ExplicacionApi.csproj",
-      "packagesPath": "C:\\Users\\raymer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raymer\\OneDrive\\Desktop\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi\\obj\\",
+      "projectPath": "F:\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi\\ExplicacionApi.csproj",
+      "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
+      "outputPath": "F:\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -28,7 +28,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\raymer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RAYMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"

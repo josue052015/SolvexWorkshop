@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\explicacionApi.core\explicacionApi.core.csproj" />
+    <ProjectReference Include="..\ExplicacionApi.Model\ExplicacionApi.Model.csproj" />
   </ItemGroup>
 
 </Project>

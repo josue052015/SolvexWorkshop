@@ -1671,35 +1671,9 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "explicacionApi.core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/explicacionApi.core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/explicacionApi.core.dll": {}
-        }
-      },
-      "ExplicacionApi.Model/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "explicacionApi.core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ExplicacionApi.Model.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ExplicacionApi.Model.dll": {}
-        }
-      },
       "ExplicacionApi.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "ExplicacionApi.Model": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/ExplicacionApi.Services.dll": {}
         },
@@ -5868,16 +5842,6 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "explicacionApi.core/1.0.0": {
-      "type": "project",
-      "path": "../explicacionApi.core/explicacionApi.core.csproj",
-      "msbuildProject": "../explicacionApi.core/explicacionApi.core.csproj"
-    },
-    "ExplicacionApi.Model/1.0.0": {
-      "type": "project",
-      "path": "../ExplicacionApi.Model/ExplicacionApi.Model.csproj",
-      "msbuildProject": "../ExplicacionApi.Model/ExplicacionApi.Model.csproj"
-    },
     "ExplicacionApi.Services/1.0.0": {
       "type": "project",
       "path": "../ExplicacionApi.Services/ExplicacionApi.Services.csproj",
@@ -5894,7 +5858,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\raymer\\.nuget\\packages\\": {},
+    "C:\\Users\\RAYMER\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
@@ -5902,11 +5866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raymer\\OneDrive\\Desktop\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi.Tests\\ExplicacionApi.Tests.csproj",
+      "projectUniqueName": "F:\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi.Tests\\ExplicacionApi.Tests.csproj",
       "projectName": "ExplicacionApi.Tests",
-      "projectPath": "C:\\Users\\raymer\\OneDrive\\Desktop\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi.Tests\\ExplicacionApi.Tests.csproj",
-      "packagesPath": "C:\\Users\\raymer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raymer\\OneDrive\\Desktop\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi.Tests\\obj\\",
+      "projectPath": "F:\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi.Tests\\ExplicacionApi.Tests.csproj",
+      "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
+      "outputPath": "F:\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5914,7 +5878,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\raymer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RAYMER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -5930,8 +5894,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\raymer\\OneDrive\\Desktop\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi.Services\\ExplicacionApi.Services.csproj": {
-              "projectPath": "C:\\Users\\raymer\\OneDrive\\Desktop\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi.Services\\ExplicacionApi.Services.csproj"
+            "F:\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi.Services\\ExplicacionApi.Services.csproj": {
+              "projectPath": "F:\\SolvexWorkshop\\ExplicacionApi\\ExplicacionApi.Services\\ExplicacionApi.Services.csproj"
             }
           }
         }
