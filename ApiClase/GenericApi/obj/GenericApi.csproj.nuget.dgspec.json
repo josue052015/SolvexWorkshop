@@ -135,6 +135,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.3, )"
             }
           },
           "imports": [
@@ -226,6 +230,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "NuGet.Protocol": {
+              "target": "Package",
+              "version": "[5.10.0, )"
+            },
+            "Octokit": {
+              "target": "Package",
+              "version": "[0.50.0, )"
             }
           },
           "imports": [

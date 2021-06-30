@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hNeIQVNxK1C1UUEM5iqOlj5TH7jpJFSe351KMwIZeAICF4zbf4BRqhx39yMseV8FrnrmfKTGPtonZCFfLi/i5Q==",
+  "dgSpecHash": "hPfVek1R4IbYNhj1mse/UIeoTAxzYCR4i9kavDgEGbi6juC6QGILi0wznVUZKMsBQKejXf1xVa89cyBLOjj4Ug==",
   "success": true,
   "projectFilePath": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Bl\\GenericApi.Bl.csproj",
   "expectedPackageFiles": [
@@ -37,7 +37,10 @@
     "C:\\Users\\RAYMER\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\RAYMER\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\RAYMER\\.nuget\\packages\\npoi\\2.5.3\\npoi.2.5.3.nupkg.sha512",
+    "C:\\Users\\RAYMER\\.nuget\\packages\\portable.bouncycastle\\1.8.6\\portable.bouncycastle.1.8.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\RAYMER\\.nuget\\packages\\sharpziplib\\1.2.0\\sharpziplib.1.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\RAYMER\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
