@@ -13,10 +13,10 @@ namespace GenericApi.Model.Contexts
         public DbSet<WorkShopDay> WorkShopDays { get; set; }
         public DbSet<WorkShopMember> workShopMembers { get; set; }
 
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer("");
-        //    base.OnConfiguring(optionsBuilder);
-        //}
+       public GenericApiContext(DbContextOptions<GenericApiContext> options)
+            :base(options)
+        {
+            Database.EnsureCreated();
+        }
     }
 }

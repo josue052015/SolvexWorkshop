@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Bl\\GenericApi.Bl.csproj": {}
+    "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Bl\\GenericApi.Bl.csproj": {}
   },
   "projects": {
-    "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Bl\\GenericApi.Bl.csproj": {
+    "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Bl\\GenericApi.Bl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Bl\\GenericApi.Bl.csproj",
+        "projectUniqueName": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Bl\\GenericApi.Bl.csproj",
         "projectName": "GenericApi.Bl",
-        "projectPath": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Bl\\GenericApi.Bl.csproj",
+        "projectPath": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Bl\\GenericApi.Bl.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Bl\\obj\\",
+        "outputPath": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Bl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj": {
-                "projectPath": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj"
+              "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Model\\GenericApi.Model.csproj": {
+                "projectPath": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Model\\GenericApi.Model.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj": {
+    "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Core\\GenericApi.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj",
+        "projectUniqueName": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Core\\GenericApi.Core.csproj",
         "projectName": "GenericApi.Core",
-        "projectPath": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj",
+        "projectPath": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Core\\GenericApi.Core.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Core\\obj\\",
+        "outputPath": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -130,14 +130,14 @@
         }
       }
     },
-    "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj": {
+    "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Model\\GenericApi.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj",
+        "projectUniqueName": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Model\\GenericApi.Model.csproj",
         "projectName": "GenericApi.Model",
-        "projectPath": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj",
+        "projectPath": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Model\\GenericApi.Model.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Model\\obj\\",
+        "outputPath": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -161,8 +161,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj": {
-                "projectPath": "F:\\SolvexWorkshop\\ApiHechaEnClase\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj"
+              "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Core\\GenericApi.Core.csproj": {
+                "projectPath": "F:\\SolvexWorkshop\\ApiClase\\GenericApi.Core\\GenericApi.Core.csproj"
               }
             }
           }
@@ -177,7 +177,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
             },

@@ -7,3 +7,12 @@ F:\SolvexWorkshop\ApiHechaEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\
 F:\SolvexWorkshop\ApiHechaEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.csproj.CoreCompileInputs.cache
 F:\SolvexWorkshop\ApiHechaEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.dll
 F:\SolvexWorkshop\ApiHechaEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.pdb
+F:\SolvexWorkshop\ApiClase\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Services.deps.json
+F:\SolvexWorkshop\ApiClase\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Services.dll
+F:\SolvexWorkshop\ApiClase\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Services.pdb
+F:\SolvexWorkshop\ApiClase\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.csproj.AssemblyReference.cache
+F:\SolvexWorkshop\ApiClase\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.AssemblyInfoInputs.cache
+F:\SolvexWorkshop\ApiClase\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.AssemblyInfo.cs
+F:\SolvexWorkshop\ApiClase\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.csproj.CoreCompileInputs.cache
+F:\SolvexWorkshop\ApiClase\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.dll
+F:\SolvexWorkshop\ApiClase\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.pdb

@@ -19,7 +19,6 @@ namespace GenericApi.Model.Entities
         public string DocumentTypeValue { get; set; }
         public Gender Gender { get; set; }
         public DateTime? Dob { get; set; }
-        [ForeignKey("PhotoId")]
         public int? PhotoId { get; set; }
         public virtual Document Photo { get; set; }
     }
