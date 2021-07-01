@@ -1,4 +1,5 @@
 using GenericApi.Model.Contexts;
+using GenericApi.Model.Entities;
 using GenericApi.Model.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -6,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using NuGet.Protocol.Core.Types;
 
 namespace GenericApi
 {
@@ -26,8 +27,13 @@ namespace GenericApi
             {
                 x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
-            services.AddScoped(typeof(IRepository<>), typeof(IRepository<>));
-            services.AddControllers();
+            //    services.AddScoped(typeof(IRepository<>), typeof(IRepository<>));
+            //  services.AddScoped<Repository, Repository>();
+            // services.AddTransient<IRepository, Repository>();
+
+
+           // services.AddScoped(typeof(IRepository<>), typeof(Repository));
+            services.AddControllers();     
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

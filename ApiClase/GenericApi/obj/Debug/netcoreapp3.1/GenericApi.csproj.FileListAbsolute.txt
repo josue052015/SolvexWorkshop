@@ -150,3 +150,4 @@ F:\SolvexWorkshop\ApiClase\GenericApi\bin\Debug\netcoreapp3.1\System.Security.Cr
 F:\SolvexWorkshop\ApiClase\GenericApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 F:\SolvexWorkshop\ApiClase\GenericApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll
 F:\SolvexWorkshop\ApiClase\GenericApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+F:\SolvexWorkshop\ApiClase\GenericApi\bin\Debug\netcoreapp3.1\Octokit.dll
