@@ -27,13 +27,12 @@ namespace GenericApi
             {
                 x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
-            //    services.AddScoped(typeof(IRepository<>), typeof(IRepository<>));
-            //  services.AddScoped<Repository, Repository>();
-            // services.AddTransient<IRepository, Repository>();
 
+            // services.AddScoped(typeof(IRepository<>), typeof(Repository));
 
-           // services.AddScoped(typeof(IRepository<>), typeof(Repository));
-            services.AddControllers();     
+           
+            services.AddControllers();
+            services.AddScoped<WorkShopRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

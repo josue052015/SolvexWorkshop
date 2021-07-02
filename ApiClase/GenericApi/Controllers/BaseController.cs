@@ -1,6 +1,5 @@
 ﻿using GenericApi.Core.BaseModel;
 using GenericApi.Model.Repository;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,12 +8,11 @@ using System.Threading.Tasks;
 
 namespace GenericApi.Controllers
 {
-   
+    [Route("api/[controller]")]
     [ApiController]
-    [Microsoft.AspNetCore.Components.Route("[controller]")]
     public abstract class BaseController<TEntity, TRepository> : ControllerBase
-        where TEntity: class, IBaseEntity
-        where TRepository: IRepository<TEntity>
+          where TEntity : class, IBaseEntity
+          where TRepository : IRepository<TEntity>
     {
         private readonly TRepository repository;
 
@@ -22,38 +20,50 @@ namespace GenericApi.Controllers
         {
             this.repository = repository;
         }
-
-       
+  
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TEntity>>> Get()
         {
             return await repository.GetAll();
         }
 
+      
         [HttpGet("{id}")]
         public async Task<ActionResult<TEntity>> Get(int id)
         {
-            var WorkShop = await repository.GetById(id);
-            if (WorkShop == null) return NotFound();
+            var movie = await repository.GetById(id);
+            if (movie == null) return NotFound();
             
-            return WorkShop;
+            return movie;
         }
+
+        
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, TEntity workShop)
+        public async Task<IActionResult> Put(int id, TEntity movie)
         {
-            if (id != workShop.Id)
-            {
-                return BadRequest();
-            }
-            await repository.Update(workShop);
+            if (id != movie.Id) return BadRequest();
+            
+            await repository.Update(movie);
             return NoContent();
         }
 
+     
         [HttpPost]
-        public async Task<ActionResult<TEntity>> Post(TEntity workShop)
+        public async Task<ActionResult<TEntity>> Post(TEntity movie)
         {
-            await repository.Update(workShop);
-            return CreatedAtAction("Get", new { id = workShop.Id }, workShop);
+            await repository.Create(movie);
+            return CreatedAtAction("Get", new { id = movie.Id }, movie);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<TEntity>> Delete(int id, TEntity _movie)
+        {
+
+            var movie = await repository.Delete(_movie);
+            if (movie == null) return NotFound();
+
+            return movie;
+        }
+
     }
 }

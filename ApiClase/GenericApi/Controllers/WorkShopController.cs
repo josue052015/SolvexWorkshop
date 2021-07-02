@@ -13,40 +13,11 @@ namespace GenericApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WorkShopController<TEntity, TRepository> : ControllerBase
-        where TEntity : WorkShop, IBaseEntity
-        where TRepository : IRepository<TEntity>
-      
+
+    public class WorkShopController : BaseController<WorkShop, WorkShopRepository>
     {
-        public readonly TRepository repository;
-
-        public WorkShopController(TRepository repository)
+        public WorkShopController(WorkShopRepository repository) : base(repository)
         {
-            this.repository = repository;
-
-            // _GenericApiContext = genericApiContext;
-        }
-
-        [HttpGet]
-        //public async Task<ActionResult<IEnumerable<TEntity>>> Get()
-        //{
-        //   return await repository.GetAll();
-
-        //}
-        public ActionResult Get()
-        {
-            return Ok();
-        }
-        [HttpGet("{id}")]
-        public ActionResult GetId()
-        {
-            return Ok();
-
-        }
-        [HttpPost]
-        public ActionResult Post()
-        {
-            return NoContent();
 
         }
     }
@@ -54,8 +25,4 @@ namespace GenericApi.Controllers
 
 
 
-//public WorkShopController(IRepository<WorkShop> repository, GenericApiContext genericApiContext)
-//{
-//    _repository = repository;
-//    _GenericApiContext = genericApiContext;
-//}
+
