@@ -8,9 +8,13 @@ namespace GenericApi.Model.Repository
 {
   public class WorkShopRepository: Repository<WorkShop,GenericApiContext>
     {
+     
         public WorkShopRepository(GenericApiContext context) : base(context)
         {
            
+            
         }
+       
+
     }
 }

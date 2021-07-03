@@ -18,7 +18,14 @@ namespace GenericApi.Controllers
     {
         public WorkShopController(WorkShopRepository repository) : base(repository)
         {
+            
+        }
 
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+           
+            return NoContent();
         }
     }
 }

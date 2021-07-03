@@ -55,15 +55,7 @@ namespace GenericApi.Controllers
             return CreatedAtAction("Get", new { id = movie.Id }, movie);
         }
 
-        [HttpDelete("{id}")]
-        public async Task<ActionResult<TEntity>> Delete(int id, TEntity _movie)
-        {
-
-            var movie = await repository.Delete(_movie);
-            if (movie == null) return NotFound();
-
-            return movie;
-        }
+       
 
     }
 }
