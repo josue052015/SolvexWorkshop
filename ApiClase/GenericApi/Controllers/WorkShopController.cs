@@ -33,9 +33,12 @@ namespace GenericApi.Controllers
 
 
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-           
+
+            var workShop = await _repository.Delete(id);
+            if (workShop == null) return NotFound();
+
             return NoContent();
         }
     }
