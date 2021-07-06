@@ -16,10 +16,21 @@ namespace GenericApi.Controllers
 
     public class WorkShopController : BaseController<WorkShop, WorkShopRepository>
     {
+        private readonly WorkShopRepository _repository;
+
         public WorkShopController(WorkShopRepository repository) : base(repository)
         {
-            
+            this._repository = repository;
         }
+
+        [HttpGet]
+        public async Task<ActionResult<List<WorkShop>>> Get()
+        {
+            var workshopResult = _repository.GetAll();
+           
+            return await workshopResult;
+        }
+
 
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)

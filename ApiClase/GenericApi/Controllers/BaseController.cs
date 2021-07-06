@@ -21,11 +21,11 @@ namespace GenericApi.Controllers
             this.repository = repository;
         }
   
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<TEntity>>> Get()
-        {
-            return await repository.GetAll();
-        }
+        //[HttpGet]
+        //public async Task<ActionResult<IEnumerable<TEntity>>> Get()
+        //{
+        //    return await repository.GetAll();
+        //}
 
       
         [HttpGet("{id}")]
