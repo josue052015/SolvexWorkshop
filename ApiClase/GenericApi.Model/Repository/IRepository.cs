@@ -12,10 +12,8 @@ namespace GenericApi.Model.Repository
 {
    public interface IRepository<T> where T : class, IBaseEntity
     {
-        
         Task<T> GetById(int id);
         Task<T> Create(T entity);
         Task<T> Update(T entity);
-    
     }
 }

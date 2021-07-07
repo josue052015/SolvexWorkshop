@@ -33,6 +33,9 @@ namespace GenericApi
            
             services.AddControllers();
             services.AddScoped<WorkShopRepository>();
+            services.AddScoped<MembersRepository>();
+            services.AddScoped<WorkShopDayRepository>();
+            services.AddTransient<IDocumentRepository, DocumentRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

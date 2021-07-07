@@ -20,14 +20,7 @@ namespace GenericApi.Controllers
         {
             this.repository = repository;
         }
-  
-        //[HttpGet]
-        //public async Task<ActionResult<IEnumerable<TEntity>>> Get()
-        //{
-        //    return await repository.GetAll();
-        //}
-
-      
+   
         [HttpGet("{id}")]
         public async Task<ActionResult<TEntity>> Get(int id)
         {
@@ -39,20 +32,20 @@ namespace GenericApi.Controllers
 
         
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, TEntity movie)
+        public async Task<IActionResult> Put(int id, TEntity entity)
         {
-            if (id != movie.Id) return BadRequest();
+            if (id != entity.Id) return BadRequest();
             
-            await repository.Update(movie);
+            await repository.Update(entity);
             return NoContent();
         }
 
      
         [HttpPost]
-        public async Task<ActionResult<TEntity>> Post(TEntity movie)
+        public async Task<ActionResult<TEntity>> Post(TEntity entity)
         {
-            await repository.Create(movie);
-            return CreatedAtAction("Get", new { id = movie.Id }, movie);
+            await repository.Create(entity);
+            return CreatedAtAction("Get", new { id = entity.Id }, entity);
         }
 
        
