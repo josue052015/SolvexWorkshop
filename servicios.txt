@@ -1,0 +1,3 @@
+add transient: es el tiempo de vida mas corto de los servicios y signica que cada vez que pidamos una instancia de un servicio(en este caso una interfaz) vamos a tener una nueva instancia diferente de su clase
+add scoped: indica que el tiempo de vida de la instancia de ese servicio sera durante toda la peticion http, es decir que si varias clases dentro de la misma peticion http piden este servicio se les entregara la misma instancia
+add singleton : indica que el tiempo de la instancia de ese servicio durará durante toda la ejecución de la aplicación
