@@ -32,7 +32,7 @@ namespace GenericApi.Controllers
 
         
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(/*[FromBody]*/int id, TEntity entity)
+        public async Task<IActionResult> Put(int id, TEntity entity)
         {
             if (id != entity.Id) return BadRequest();
             
@@ -42,7 +42,7 @@ namespace GenericApi.Controllers
 
      
         [HttpPost]
-        public async Task<ActionResult<TEntity>> Post(/*[FromBody]*/TEntity entity)
+        public async Task<ActionResult<TEntity>> Post(TEntity entity)
         {
             await repository.Create(entity);
             return CreatedAtAction("Get", new { id = entity.Id }, entity);
