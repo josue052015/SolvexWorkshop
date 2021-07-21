@@ -1,0 +1,15 @@
+EN LA CAPA CORE:
+
+*crea tus entidades base para los DTO
+
+EN LA CAPA BL:
+
+*Crea tus DTOs 
+*Crea el MainProfile del mapper
+
+EN LA CAPA SERVICES:
+
+*Crea el serviceRegistry(la coleccion de servicios de los DTOs)
+*Crea el base service
+*Añade los demas services
+

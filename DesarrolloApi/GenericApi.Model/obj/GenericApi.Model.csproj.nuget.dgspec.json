@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj": {}
+    "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Model\\GenericApi.Model.csproj": {}
   },
   "projects": {
-    "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj": {
+    "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Core\\GenericApi.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj",
+        "projectUniqueName": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Core\\GenericApi.Core.csproj",
         "projectName": "GenericApi.Core",
-        "projectPath": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj",
+        "projectPath": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Core\\GenericApi.Core.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Core\\obj\\",
+        "outputPath": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj": {
+    "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Model\\GenericApi.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj",
+        "projectUniqueName": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Model\\GenericApi.Model.csproj",
         "projectName": "GenericApi.Model",
-        "projectPath": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj",
+        "projectPath": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Model\\GenericApi.Model.csproj",
         "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-        "outputPath": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Model\\obj\\",
+        "outputPath": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -96,8 +96,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj": {
-                "projectPath": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj"
+              "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Core\\GenericApi.Core.csproj": {
+                "projectPath": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Core\\GenericApi.Core.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qKPwZbbbaH9WdvNGzyin79OCfUi8nOm+XHQdT5zK3+esKzhq0nJ+pP9/tukAYoBFW6QfmJ31LZcge3XuNEDoKA==",
+  "dgSpecHash": "JT6Jp9Qt3Pyf/VrDsfFSJyLrU5MdhgbWIVZgLCLLLAsh3co5nZkwD2IMyoZXYQGQM5PonYH/zS20YBhxcY09WQ==",
   "success": true,
-  "projectFilePath": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj",
+  "projectFilePath": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Core\\GenericApi.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

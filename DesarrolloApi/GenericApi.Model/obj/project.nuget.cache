@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7wey+ZEviNVd49XgBpqp+RPXtKfjDN3CdylFShm1GBTClYPONJ3ZE/9l/YLnxBk/Ey9I6eRmOqepAmJ1y6Tvuw==",
+  "dgSpecHash": "qZQFl1DROpRrUBqBuCr4G5iLydDK7mYL43bP/9nP7KMFlOf9hREp2LovbUUSeKgTkSi5N+xGWfPH8Ozq5XhytQ==",
   "success": true,
-  "projectFilePath": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Model\\GenericApi.Model.csproj",
+  "projectFilePath": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Model\\GenericApi.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAYMER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\RAYMER\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

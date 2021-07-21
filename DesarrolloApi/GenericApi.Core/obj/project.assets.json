@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj",
+      "projectUniqueName": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Core\\GenericApi.Core.csproj",
       "projectName": "GenericApi.Core",
-      "projectPath": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Core\\GenericApi.Core.csproj",
+      "projectPath": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Core\\GenericApi.Core.csproj",
       "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
-      "outputPath": "F:\\SolvexWorkshop\\DesarrolloApi\\SolvexWorkShops\\GenericApi.Core\\obj\\",
+      "outputPath": "F:\\SolvexWorkshop\\DesarrolloApi\\GenericApi.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
