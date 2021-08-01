@@ -6,7 +6,7 @@ using System.Text;
 
 namespace GenericApi.Bl.Dto
 {
-   public class WorkShopDayDto : BaseEntityDto
+  public class WorkShopDayDto : BaseEntityDto
     {
         public WeekDay Day { get; set; }
         public WorkShopDayMode Mode { get; set; }
@@ -15,6 +15,6 @@ namespace GenericApi.Bl.Dto
         public TimeSpan? EndHour { get; set; }
 
         public int WorkShopId { get; set; }
-        public string  WorkShopName { get; set; }
+        public string WorkShop { get; set; }
     }
 }

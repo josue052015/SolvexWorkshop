@@ -1,0 +1,16 @@
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Services.deps.json
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Services.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Services.pdb
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Bl.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Core.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Model.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Bl.pdb
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Core.pdb
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\bin\Debug\netcoreapp3.1\GenericApi.Model.pdb
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.csproj.AssemblyReference.cache
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.AssemblyInfoInputs.cache
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.AssemblyInfo.cs
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.csproj.CoreCompileInputs.cache
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.csproj.CopyComplete
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Services\obj\Debug\netcoreapp3.1\GenericApi.Services.pdb

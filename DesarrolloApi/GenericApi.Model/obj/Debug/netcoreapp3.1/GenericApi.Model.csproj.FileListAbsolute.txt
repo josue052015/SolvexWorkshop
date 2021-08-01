@@ -1,0 +1,15 @@
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\bin\Debug\netcoreapp3.1\GenericApi.Model.deps.json
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\bin\Debug\netcoreapp3.1\GenericApi.Model.runtimeconfig.json
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\bin\Debug\netcoreapp3.1\GenericApi.Model.runtimeconfig.dev.json
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\bin\Debug\netcoreapp3.1\GenericApi.Model.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\bin\Debug\netcoreapp3.1\GenericApi.Model.pdb
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\bin\Debug\netcoreapp3.1\GenericApi.Core.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\bin\Debug\netcoreapp3.1\GenericApi.Core.pdb
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\obj\Debug\netcoreapp3.1\GenericApi.Model.csproj.AssemblyReference.cache
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\obj\Debug\netcoreapp3.1\GenericApi.Model.AssemblyInfoInputs.cache
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\obj\Debug\netcoreapp3.1\GenericApi.Model.AssemblyInfo.cs
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\obj\Debug\netcoreapp3.1\GenericApi.Model.csproj.CoreCompileInputs.cache
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\obj\Debug\netcoreapp3.1\GenericApi.Model.csproj.CopyComplete
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\obj\Debug\netcoreapp3.1\GenericApi.Model.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\obj\Debug\netcoreapp3.1\GenericApi.Model.pdb
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Model\obj\Debug\netcoreapp3.1\GenericApi.Model.genruntimeconfig.cache

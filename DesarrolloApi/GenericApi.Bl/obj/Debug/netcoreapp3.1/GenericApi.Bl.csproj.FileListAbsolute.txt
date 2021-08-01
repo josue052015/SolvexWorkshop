@@ -1,0 +1,14 @@
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\bin\Debug\netcoreapp3.1\GenericApi.Bl.deps.json
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\bin\Debug\netcoreapp3.1\GenericApi.Bl.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\bin\Debug\netcoreapp3.1\GenericApi.Bl.pdb
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\bin\Debug\netcoreapp3.1\GenericApi.Core.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\bin\Debug\netcoreapp3.1\GenericApi.Model.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\bin\Debug\netcoreapp3.1\GenericApi.Model.pdb
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\bin\Debug\netcoreapp3.1\GenericApi.Core.pdb
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\obj\Debug\netcoreapp3.1\GenericApi.Bl.csproj.AssemblyReference.cache
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\obj\Debug\netcoreapp3.1\GenericApi.Bl.AssemblyInfoInputs.cache
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\obj\Debug\netcoreapp3.1\GenericApi.Bl.AssemblyInfo.cs
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\obj\Debug\netcoreapp3.1\GenericApi.Bl.csproj.CoreCompileInputs.cache
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\obj\Debug\netcoreapp3.1\GenericApi.Bl.csproj.CopyComplete
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\obj\Debug\netcoreapp3.1\GenericApi.Bl.dll
+C:\Users\RAYMER\Desktop\EncriptarPassword\ResueltoEnClase\SolvexWorkShops\GenericApi.Bl\obj\Debug\netcoreapp3.1\GenericApi.Bl.pdb

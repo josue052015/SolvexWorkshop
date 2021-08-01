@@ -13,24 +13,10 @@ namespace GenericApi.Bl.Mapper
         {
             CreateMap<Document, DocumentDto>().ReverseMap();
 
-            CreateMap<Member, MemberDto>()
+            CreateMap<User, UserDto>()
                 .ForMember(dto => dto.PhotoFileName, config => config.MapFrom(entity => entity.Photo.FileName));
             
-            CreateMap<MemberDto, Member>();
-
-
-            CreateMap<WorkShop, WorkShopDto>().ReverseMap();
-
-            CreateMap<WorkShopDay, WorkShopDayDto>()
-                .ForMember(dto => dto.WorkShopName, config => config.MapFrom(entity => entity.WorkShop.Name));
-
-            CreateMap<WorkShopDayDto, WorkShopDay>();
-
-            CreateMap<WorkShopMember, WorkShopMemberDto>()
-                .ForMember(dto => dto.WorkShopName, config => config.MapFrom(entity => entity.WorkShop.Name))
-                .ForMember(dto => dto.MemberName, config => config.MapFrom(entity => entity.Member.Name));
-
-            CreateMap<WorkShopMemberDto, WorkShopMember>();
+            CreateMap<UserDto, User>();
         }
     }
 }

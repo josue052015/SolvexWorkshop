@@ -6,12 +6,12 @@ using System.Text;
 
 namespace GenericApi.Bl.Dto
 {
-   public class WorkShopMemberDto : BaseEntityDto
+  public  class WorkShopMemberDto : BaseEntityDto
     {
         public WorkShopMemberRole Role { get; set; }
         public int WorkShopId { get; set; }
-        public int MemberId { get; set; }
-        public string WorkShopName { get; set; }
-        public string  MemberName { get; set; }
+        public string WorkShop { get; set; }
+        public int UserId { get; set; }
+        public string User { get; set; }
     }
 }

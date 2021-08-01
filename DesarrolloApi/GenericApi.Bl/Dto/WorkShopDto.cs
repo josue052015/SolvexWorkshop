@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GenericApi.Bl.Dto
 {
-    public class WorkShopDto: BaseEntityDto
+  public class WorkShopDto : BaseEntityDto
     {
         public string Name { get; set; }
         public string Description { get; set; }
