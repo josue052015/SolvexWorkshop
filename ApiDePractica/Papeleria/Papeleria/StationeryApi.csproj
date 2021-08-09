@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Papeleria.Services\PapeleriaApi.Services.csproj" />
+    <ProjectReference Include="..\Papeleria.Services\StationeryApi.Services.csproj" />
   </ItemGroup>
 
 

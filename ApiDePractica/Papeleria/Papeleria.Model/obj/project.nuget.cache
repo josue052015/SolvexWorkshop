@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zx5VL+/A4SQq7qDD42XBbC9qSCd/EYs6DRlDior59BcdhsjZZICdG0YeligmXOhe6xSvZSgbMBCOEsA9jCEXHA==",
+  "dgSpecHash": "Vi4d4md0sEOaNIh/I5u8DD9TXpOsW2iUoeaxCvRE9DqEXbB31Z5g1Xa6BLRMJ/+Zlc5NuujIpubJl7pWlPGVOQ==",
   "success": true,
-  "projectFilePath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Model\\PapeleriaApi.Model.csproj",
+  "projectFilePath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Model\\StationeryApi.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

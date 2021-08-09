@@ -16,9 +16,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Services\\PapeleriaApi.Services.csproj",
-      "projectName": "PapeleriaApi.Services",
-      "projectPath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Services\\PapeleriaApi.Services.csproj",
+      "projectUniqueName": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Services\\StationeryApi.Services.csproj",
+      "projectName": "StationeryApi.Services",
+      "projectPath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Services\\StationeryApi.Services.csproj",
       "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
       "outputPath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Services\\obj\\",
       "projectStyle": "PackageReference",

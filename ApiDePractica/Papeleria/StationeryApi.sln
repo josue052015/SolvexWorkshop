@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PapeleriaApi", "Papeleria\PapeleriaApi.csproj", "{FF49F02D-2AB1-4AE9-AE91-9C185ECDEDED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryApi", "Papeleria\StationeryApi.csproj", "{FF49F02D-2AB1-4AE9-AE91-9C185ECDEDED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PapeleriaApi.Bl", "Papeleria.Bl\PapeleriaApi.Bl.csproj", "{A0BEEE0E-0976-4660-A141-CAC43B4215A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryApi.Bl", "Papeleria.Bl\StationeryApi.Bl.csproj", "{A0BEEE0E-0976-4660-A141-CAC43B4215A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PapeleriaApi.Core", "Papeleria.Core\PapeleriaApi.Core.csproj", "{18958241-BD7D-45C4-8AF9-89BD3EF1D543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryApi.Core", "Papeleria.Core\StationeryApi.Core.csproj", "{18958241-BD7D-45C4-8AF9-89BD3EF1D543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PapeleriaApi.Model", "Papeleria.Model\PapeleriaApi.Model.csproj", "{B6F3F99D-1989-4255-AE8E-334F10059B1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryApi.Model", "Papeleria.Model\StationeryApi.Model.csproj", "{B6F3F99D-1989-4255-AE8E-334F10059B1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PapeleriaApi.Services", "Papeleria.Services\PapeleriaApi.Services.csproj", "{28821D6F-5550-465C-BFAD-2759C39B6B06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StationeryApi.Services", "Papeleria.Services\StationeryApi.Services.csproj", "{28821D6F-5550-465C-BFAD-2759C39B6B06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PapeleriaApi.Test", "Papeleria.Test\PapeleriaApi.Test.csproj", "{09C85C7F-B34F-4323-BF64-2EF328AC30CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PapeleriaApi.Test", "Papeleria.Test\PapeleriaApi.Test.csproj", "{09C85C7F-B34F-4323-BF64-2EF328AC30CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

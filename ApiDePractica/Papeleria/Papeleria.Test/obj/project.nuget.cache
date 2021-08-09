@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6skodJyYUggZR7LVClnO+F6DWrpJQahB2jSnIPVCcYV5koaCLMMyJRDjKgB/tj7y1nkTJgNVHQEK0Pz2KQ+m9Q==",
+  "dgSpecHash": "BuVWXyvM2J3b9atVg+TlyyViROk6tpy82LFH5TVzKuwAUAiOvclKwfsi4NJZGTI45XEYbSFkJvtHwmCgyErP4Q==",
   "success": true,
-  "projectFilePath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Test\\PapeleriaApi.Test.csproj",
+  "projectFilePath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Test\\StationeryApi.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAYMER\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\RAYMER\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

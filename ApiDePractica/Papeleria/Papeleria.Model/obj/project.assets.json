@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "PapeleriaApi.Core/1.0.0": {
+      "StationeryApi.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/PapeleriaApi.Core.dll": {}
+          "bin/placeholder/StationeryApi.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PapeleriaApi.Core.dll": {}
+          "bin/placeholder/StationeryApi.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "PapeleriaApi.Core/1.0.0": {
+    "StationeryApi.Core/1.0.0": {
       "type": "project",
-      "path": "../Papeleria.Core/PapeleriaApi.Core.csproj",
-      "msbuildProject": "../Papeleria.Core/PapeleriaApi.Core.csproj"
+      "path": "../Papeleria.Core/StationeryApi.Core.csproj",
+      "msbuildProject": "../Papeleria.Core/StationeryApi.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "PapeleriaApi.Core >= 1.0.0"
+      "StationeryApi.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -35,9 +35,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Model\\PapeleriaApi.Model.csproj",
-      "projectName": "PapeleriaApi.Model",
-      "projectPath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Model\\PapeleriaApi.Model.csproj",
+      "projectUniqueName": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Model\\StationeryApi.Model.csproj",
+      "projectName": "StationeryApi.Model",
+      "projectPath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Model\\StationeryApi.Model.csproj",
       "packagesPath": "C:\\Users\\RAYMER\\.nuget\\packages\\",
       "outputPath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Model\\obj\\",
       "projectStyle": "PackageReference",
@@ -63,8 +63,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Core\\PapeleriaApi.Core.csproj": {
-              "projectPath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Core\\PapeleriaApi.Core.csproj"
+            "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Core\\StationeryApi.Core.csproj": {
+              "projectPath": "F:\\SolvexWorkshop\\ApiDePractica\\Papeleria\\Papeleria.Core\\StationeryApi.Core.csproj"
             }
           }
         }

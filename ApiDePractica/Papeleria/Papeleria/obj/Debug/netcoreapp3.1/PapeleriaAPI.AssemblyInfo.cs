@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PapeleriaAPI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PapeleriaApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("PapeleriaAPI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("PapeleriaAPI")]
+[assembly: System.Reflection.AssemblyProductAttribute("PapeleriaApi")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PapeleriaApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
