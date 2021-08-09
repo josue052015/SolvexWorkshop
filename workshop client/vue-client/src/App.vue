@@ -1,17 +1,22 @@
 <template>
 
   <div id="app">
+    
     <navbar/>
+    <Sidebar/>
+    
   </div>
  <!--  <router-view/> -->
 </template>
 <script lang= "ts">
 import { Component, Vue } from 'vue-property-decorator';
 import   Navbar from "@/components/Navbar.vue";
+import Sidebar from "@/components/Sidebar.vue"
 //import   Login  from "../components/Login.vue";
 @Component({
   components: {
-  Navbar
+  Navbar,
+  Sidebar
   },
 })
 
