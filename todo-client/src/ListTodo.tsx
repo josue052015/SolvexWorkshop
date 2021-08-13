@@ -21,41 +21,43 @@ export default function ListTodo() {
         }
         setHubConnetion(hubConnection);
     }
-
+    //TODO: ojo aqui
     useEffect(() => {
         if (hubConnection) {
             hubConnection.on("ReceiveTodo", (todo) => {
                 setTodoList((prevState => {
-                    return prevState.concat(todoList);
+                    return prevState.concat(todo);
                 }))
             })
         }
     }, [hubConnection])
 
-const sendTodo = async () => {
-    if (hubConnection){
-        setText("")
-       await hubConnection.invoke("SendTodo", text)
+    const sendTodo = async () => {
+        if (hubConnection) {
+            setText("")
+            await hubConnection.invoke("SendTodo", text)
+        }
     }
-} 
 
     return (
         <>
-<input value = {text} onChange = {(e: any) => {
-    setText(e.target.value)
-}}/>
-<button onClick = {sendTodo}>holaaaa</button>
-<div>
-    <h2>Todos</h2>
-    <ul>
-        {todoList.map((item: string, index:number)=> {
-            return(
-                <li key = {index}>{item}</li>
-                
-            )
-        })}
-    </ul>
-</div>
+            <div className = "wrapper">
+                <input value={text} onChange={(e: any) => {
+                    setText(e.target.value)
+                }} />
+                <button onClick={sendTodo}>holaaaa</button>
+                <div>
+                    <h2>Todos</h2>
+                    <ul>
+                        {todoList.map((item: string, index: number) => {
+                            return (
+                                <li key={index}>{item}</li>
+
+                            )
+                        })}
+                    </ul>
+                </div>
+            </div>
         </>
     );
 }
