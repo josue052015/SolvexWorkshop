@@ -1,4 +1,5 @@
 import { HubConnection, HubConnectionBuilder } from "@microsoft/signalr";
+import { Empty } from "antd";
 import React, { useEffect, useRef, useState } from "react";
 
 export default function ListTodo() {
@@ -21,7 +22,7 @@ export default function ListTodo() {
         }
         setHubConnetion(hubConnection);
     }
-    //TODO: ojo aqui
+   
     useEffect(() => {
         if (hubConnection) {
             hubConnection.on("ReceiveTodo", (todo) => {
@@ -33,26 +34,33 @@ export default function ListTodo() {
     }, [hubConnection])
 
     const sendTodo = async () => {
-        if (hubConnection) {
-            setText("")
-            await hubConnection.invoke("SendTodo", text)
+        if (text != "") {
+            
+            if (hubConnection) {
+                setText("")
+                await hubConnection.invoke("SendTodo", text)
+            }
+        }
+        else {
+            alert("No puede dejar el espacio en blanco")
         }
     }
 
     return (
         <>
-            <div className = "wrapper">
-                <input value={text} onChange={(e: any) => {
-                    setText(e.target.value)
-                }} />
-                <button onClick={sendTodo}>holaaaa</button>
+            <div className="wrapper">
+                <header>Todo list</header>
+                <div className="inputField">
+                    <input value={text} placeholder="Ingrese su tarea" onChange={(e: any) => {
+                        setText(e.target.value)
+                    }} />
+                    <button onClick={sendTodo}><i className="fas fa-plus"></i></button>
+                </div>
                 <div>
-                    <h2>Todos</h2>
-                    <ul>
+                    <ul className="todoList">
                         {todoList.map((item: string, index: number) => {
                             return (
                                 <li key={index}>{item}</li>
-
                             )
                         })}
                     </ul>
