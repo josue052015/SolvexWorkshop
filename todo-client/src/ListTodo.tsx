@@ -35,7 +35,6 @@ export default function ListTodo() {
 
     const sendTodo = async () => {
         if (text != "") {
-            
             if (hubConnection) {
                 setText("")
                 await hubConnection.invoke("SendTodo", text)
